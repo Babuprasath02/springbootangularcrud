@@ -1,0 +1,23 @@
+<!-- <app-employee-list></app-employee-list> -->
+<nav class="navbar navbar-expand-in bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLink="employees" routerLinkActive="active" class="nav-link"
+        >Employee List</a
+      >
+    </li>
+    <li class="nav-item">
+      <a routerLink="createemployee" routerLinkActive="active" class="nav-link"
+        >Create Employee</a
+      >
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+<footer class="footer">
+  <div clasee="container">
+    <span>All rights reserved @2023 KGISL</span>
+  </div>
+</footer>
